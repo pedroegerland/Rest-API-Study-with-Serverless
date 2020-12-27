@@ -1,0 +1,39 @@
+{
+  "name": "pedro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/controllers/post.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.799.0",
+    "date-format": "^3.0.0",
+    "nvm": "^0.0.4",
+    "uuid": "^8.3.1",
+    "@spark/log": "git+https://spark-team:5vshkHjZBsCgvsyrxtRp@gitlab.com/spark-team/log.git#v0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-mocha": "^8.0.0",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.5",
+    "nyc": "^15.1.0",
+    "eslint-plugin-react": "^7.9.0",
+    "husky": "^0.15.0-rc.8",
+    "jest": "^23.1.0",
+    "jest-cli": "^23.2.0",
+    "json-loader": "^0.5.3",
+    "serverless-plugin-tracing": "^2.0.0",
+    "uuid": "^8.3.1",
+    "uuidv4": "^6.2.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Egerland",
+  "license": "ISC"
+}
